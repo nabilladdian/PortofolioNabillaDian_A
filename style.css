@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+nav ul {
+    list-style: none;
+    background-color: #fc7676;
+    text-align: center;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #ffb7b7;
+}
+
+section {
+    padding: 40px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd; /* Divider between sections */
+}
+h1, h2, h3, h4 {
+    color: #fc7676;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+p, ul {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fc7676;
+    color: #fff;
+    margin-top: 40px;
+    position: relative;
+}
+footer img {
+    width: 40px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.scroll-images {
+    list-style: none;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: transparent; /* Remove box background */
+    border-radius: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+.scroll-images li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.scroll-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.scroll-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+#contact ul li a {
+    background-color: #fc7676;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+#contact ul li a:hover {
+    background-color: #ffb7b7;
+}
